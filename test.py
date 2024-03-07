@@ -1,38 +1,30 @@
-print("Hello world!")
-# let variable = 21;
-name = "Adrian"
-last_name = "Aguinaga"
-total = 12.99
-age = 137
-found = True
-# if / else statement
-# if(var==var2){
-# logic
-# }
-# this is a test
-if age > 100:
-    print("dont worry your'e not that old")
-    print("this is only a example")
-elif age == 1:
-    print("congratz your'e a century")
-else:
-    print("Srry, seems that your'e old!")
 
-#fuction 
-# function say_hello(){}
+colorList = ["white","red","black","blue"]
+numberList = [1,1,4,2,3]
 
-def say_hello():
-    print("Hello there")
+#add
+colorList.append("pink")
 
-def say_goodbye(name):
-    print("Goobye"+ name)
+#travel the list
+for temp in colorList:
+    print(temp)
 
-#call a fuction
-say_hello()
-say_goodbye(" Erick")
+print(colorList[0])
 
-#concatenate
-print(" Hello my name is"+ name + " and i have"+ str(age) +" years old")
+# for(i=0;color.len;i++) -- this is the JS
+    # let temp = color[i]
+      # console.log(temp)
 
+#dictionary
+me={
+    "first_name":"Adrian",
+    "month":"july",
+    "last_name":"Aguinaga",
+    "age":37,    
+}
+print(me["first_name"])
 
+me["age"] = 99
+me["color"]="Blue"
+print(me)
 
